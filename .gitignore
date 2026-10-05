@@ -1,0 +1,20 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# uv / Python
+.venv/
+__pycache__/
+
+# 出厂固件整片备份（16MB，只留在本机）
+backup/*.bin
+
+# 本地日志
+logs/
+
+# USB 同步取回的记录（tools/sync.py 的默认输出目录）
+data/
+
+# 只在本机的文件
+*_handoff.zip
+xhs/
